@@ -44,7 +44,7 @@ img {
   bottom: 4px;
   background: var(--violet);
   opacity: 60%;
-  filter: contrast(1.5) brightness(60%) saturate(1.4);
+  filter: contrast(1.6) brightness(50%) saturate(1.2);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
