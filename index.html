@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-hero">
+          <img
+            srcset="
+              images/image-header-mobile.jpg  654w,
+              images/image-header-desktop.jpg 540w
+            "
+            sizes="(max-width: 768px) 654px,
+              540px"
+            src="images/image-header-desktop.jpg"
+            alt="3 women at work."
+          />
+        </div>
+        <div class="card-details">
+          <h1 class="card-title">
+            Get <span class="title-highlight">insights</span> that help your
+            business grow.
+          </h1>
+          <p class="card-description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <div class="card-stats">
+            <h2>10k+<br /><span>companies</span></h2>
+            <h2>314<br /><span>templates</span></h2>
+            <h2>12M+<br /><span>queries</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a href="https://marciaibanez.com/" target="_blank">Marcia Ibanez</a>.
+      </div>
+    </main>
+  </body>
+</html>
